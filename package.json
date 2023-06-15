@@ -1,0 +1,23 @@
+{
+  "name": "test-electron",
+  "version": "1.0.0",
+  "description": "test to see how updates works in electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turlututur/test-electron-update.git"
+  },
+  "author": "turlututur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turlututur/test-electron-update/issues"
+  },
+  "homepage": "https://github.com/Turlututur/test-electron-update#readme",
+  "devDependencies": {
+    "electron": "^25.1.1"
+  }
+}
