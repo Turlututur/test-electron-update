@@ -4,10 +4,11 @@
   "description": "test to see how updates works in electron",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@electron-forge/maker-rpm": "^6.1.1",
     "@electron-forge/maker-squirrel": "^6.1.1",
     "@electron-forge/maker-zip": "^6.1.1",
+    "@electron-forge/publisher-github": "^6.1.1",
     "electron": "^25.0.1"
   },
   "dependencies": {
