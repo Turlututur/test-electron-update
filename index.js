@@ -1,4 +1,5 @@
 const { app, BrowserWindow, ipcMain, nativeTheme } = require("electron");
+require("update-electron-app")();
 const path = require("path");
 
 function createWindow() {
